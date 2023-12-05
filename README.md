@@ -39,5 +39,5 @@ Docker: nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
 - Load Average: 0.22, 0.35, 0.34
 
 | Benchmark | Time | CPU | Iterations | UserCounters...|
-| --------- | ---- | --- | ------------------------- |
-| sort_pairs<float, int>(~16 segments), descending/manual_time | 5.96 ms | 5.96 ms | bytes_per_second=6.44022Gi/s items_per_second=864.391M/s |
+| --------- | ---- | --- | ---------- | ------------------------- |
+| sort_pairs<float, int>(~16 segments), descending/manual_time | 5.96 ms | 5.96 ms | 103 | bytes_per_second=6.44022Gi/s items_per_second=864.391M/s |
